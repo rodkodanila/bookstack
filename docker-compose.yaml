@@ -1,6 +1,6 @@
 services:
   mysql:
-    image: mysql:9.2
+    image: mysql:8.0
     environment:
     - MYSQL_ROOT_PASSWORD=secret
     - MYSQL_DATABASE=bookstack
@@ -8,6 +8,7 @@ services:
     - MYSQL_PASSWORD=secret
     volumes:
     - ./mysql-data:/var/lib/mysql
+
 
   bookstack:
     image: solidnerd/bookstack:25.7.2
