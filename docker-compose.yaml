@@ -24,7 +24,7 @@ services:
     # APP_URL=https://example.com
     # APP_URL=http://localhost:8080
     # APP_URL=https://wiki.example.com:8443
-    - APP_URL=http://localhost:8080
+    - APP_URL=http://wiki:8080
     # APP_KEY is used for encryption where needed, so needs to be persisted to
     # preserve decryption abilities.
     # Can run `php artisan key:generate` to generate a key
